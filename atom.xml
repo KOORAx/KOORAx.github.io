@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://KOORAx.github.io</id>
+    <title>GBase</title>
+    <updated>2022-06-19T09:34:15.649Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://KOORAx.github.io"/>
+    <link rel="self" href="https://KOORAx.github.io/atom.xml"/>
+    <subtitle>温故而知新</subtitle>
+    <logo>https://KOORAx.github.io/images/avatar.png</logo>
+    <icon>https://KOORAx.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, GBase</rights>
+    <entry>
+        <title type="html"><![CDATA[markdown测试文档]]></title>
+        <id>https://KOORAx.github.io/post/markdown-ce-shi-wen-dang/</id>
+        <link href="https://KOORAx.github.io/post/markdown-ce-shi-wen-dang/">
+        </link>
+        <updated>2022-06-06T12:48:40.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="https://KOORAx.github.io/post-images/1655198229739.png" alt="LOGO" loading="lazy"></figure>
+<h1 id="一级标题">一级标题</h1>
+<h2 id="二级标题">二级标题</h2>
+<h3 id="三级标题">三级标题</h3>
+<h4 id="四级标题">四级标题</h4>
+<h5 id="五级标题">五级标题</h5>
+<h6 id="六级标题">六级标题</h6>
+<p><em>斜体文本</em><br>
+<em>斜体文本</em><br>
+<strong>粗体文本</strong><br>
+<strong>粗体文本</strong><br>
+<em><strong>粗斜体文本</strong></em><br>
+<em><strong>粗斜体文本</strong></em></p>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<p>删除线文本<br>
+<s>BAIDU.COM</s></p>
+<p>下划线文本<br>
+<u>带下划线文本</u></p>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ol>
+<li>
+<p>第一项</p>
+</li>
+<li>
+<p>第二项</p>
+</li>
+<li>
+<p>第三项</p>
+</li>
+<li>
+<p>第一项：</p>
+<ul>
+<li>第一项嵌套的第一个元素</li>
+<li>第一项嵌套的第二个元素</li>
+</ul>
+</li>
+<li>
+<p>第二项：</p>
+<ul>
+<li>第二项嵌套的第一个元素</li>
+<li>第二项嵌套的第二个元素</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>区块引用<br>
+菜鸟教程<br>
+学的不仅是技术更是梦想</p>
+</blockquote>
+<blockquote>
+<p>最外层</p>
+<blockquote>
+<p>第一层嵌套</p>
+<blockquote>
+<p>第二层嵌套</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<blockquote>
+<p>区块中使用列表</p>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+</ol>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+</blockquote>
+<ul>
+<li>第一项
+<blockquote>
+<p>菜鸟教程<br>
+学的不仅是技术更是梦想</p>
+</blockquote>
+</li>
+<li>第二项</li>
+</ul>
+<p><code>printf()</code> 函数</p>
+<pre><code class="language-javascript">$(document).ready(function () {
+    alert('RUNOOB');
+});
+</code></pre>
+<p>这是一个链接 <a href="https://www.runoob.com">菜鸟教程</a></p>
+<p><a href="https://www.runoob.com">https://www.runoob.com</a></p>
+<figure data-type="image" tabindex="2"><img src="http://static.runoob.com/images/runoob-logo.png" alt="RUNOOB 图标" loading="lazy"></figure>
+<img src="http://static.runoob.com/images/runoob-logo.png" width="50%">
+<table>
+<thead>
+<tr>
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">左对齐</th>
+<th style="text-align:right">右对齐</th>
+<th style="text-align:center">居中对齐</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">单元格</td>
+<td style="text-align:right">单元格</td>
+<td style="text-align:center">单元格</td>
+</tr>
+<tr>
+<td style="text-align:left">单元格</td>
+<td style="text-align:right">单元格</td>
+<td style="text-align:center">单元格</td>
+</tr>
+</tbody>
+</table>
+<p>使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑</p>
+<p>\   反斜线<br>
+`   反引号<br>
+*   星号<br>
+_   下划线<br>
+{}  花括号<br>
+[]  方括号<br>
+()  小括号<br>
+#   井字号<br>
++   加号<br>
+-   减号<br>
+.   英文句点<br>
+!   感叹号</p>
+]]></content>
+    </entry>
+</feed>
